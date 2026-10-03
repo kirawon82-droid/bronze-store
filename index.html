@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bronze Store | Fine Leather Goods</title>
+    <meta
+      name="description"
+      content="Bronze Store crafts premium leather bags, wallets, and travel essentials with timeless design and exceptional craftsmanship."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      <p>Free shipping on orders over $150 • New Autumn Collection now available</p>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">B</span>
+          <span class="brand-name">Bronze Store</span>
+        </div>
+
+        <nav class="main-nav">
+          <a href="#new">New Arrivals</a>
+          <a href="#collection">Collection</a>
+          <a href="#craft">Craft</a>
+          <a href="#journal">Journal</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-button" aria-label="Search">⌕</button>
+          <button class="icon-button" aria-label="Bag">👜</button>
+          <button class="nav-cta">Shop Now</button>
+        </div>
+
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Luxury leather essentials</p>
+            <h1>Timeless pieces for the everyday ritual.</h1>
+            <p class="hero-text">
+              Crafted for modern life with slow-made leather, sculptural silhouettes,
+              and a finish that only grows richer with time.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-btn" href="#collection">Explore Collection</a>
+              <a class="secondary-btn" href="#craft">Our Craft</a>
+            </div>
+
+            <ul class="hero-meta">
+              <li>Italian full-grain leather</li>
+              <li>Hand-finished details</li>
+              <li>Designed to last</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="product-showcase">
+              <div class="floating-card card-top">
+                <span>Limited Edition</span>
+                <strong>Heritage Tote</strong>
+              </div>
+
+              <div class="bag-visual">
+                <div class="bag-shadow"></div>
+                <div class="bag-body">
+                  <div class="bag-handle"></div>
+                  <div class="bag-logo">B</div>
+                </div>
+              </div>
+
+              <div class="floating-card card-bottom">
+                <span>From</span>
+                <strong>$240</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <div class="container trust-items">
+          <div><strong>12k+</strong> customers</div>
+          <div><strong>4.9/5</strong> rating</div>
+          <div><strong>100%</strong> handcrafted</div>
+          <div><strong>48h</strong> dispatch</div>
+        </div>
+      </section>
+
+      <section id="new" class="featured">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Bestsellers</p>
+              <h2>New leather in motion.</h2>
+            </div>
+            <a href="#" class="text-link">View all</a>
+          </div>
+
+          <div class="featured-grid">
+            <article class="product-card">
+              <div class="product-image image-one">
+                <span class="badge">New</span>
+              </div>
+              <div class="product-info">
+                <div class="product-top">
+                  <h3>Velour Satchel</h3>
+                  <span>$320</span>
+                </div>
+                <p>Structured silhouette with brushed brass hardware.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image image-two">
+                <span class="badge">Best Seller</span>
+              </div>
+              <div class="product-info">
+                <div class="product-top">
+                  <h3>Bronze Ledger</h3>
+                  <span>$180</span>
+                </div>
+                <p>Compact wallet crafted for everyday carry.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image image-three">
+                <span class="badge">Limited</span>
+              </div>
+              <div class="product-info">
+                <div class="product-top">
+                  <h3>Harbor Weekender</h3>
+                  <span>$420</span>
+                </div>
+                <p>Travel-ready premium leather for short escapes.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="collection" class="collection">
+        <div class="container">
+          <div class="collection-intro">
+            <div>
+              <p class="eyebrow">The collection</p>
+              <h2>Made for city life and long weekends.</h2>
+            </div>
+
+            <div class="segmented-control">
+              <button class="filter active" data-filter="all">All</button>
+              <button class="filter" data-filter="bags">Bags</button>
+              <button class="filter" data-filter="wallets">Wallets</button>
+              <button class="filter" data-filter="travel">Travel</button>
+            </div>
+          </div>
+
+          <div class="product-grid">
+            <article class="grid-item" data-category="bags">
+              <div class="mini-product mini-one"></div>
+              <div class="mini-info">
+                <span>Atlas Tote</span>
+                <strong>$290</strong>
+              </div>
+            </article>
+
+            <article class="grid-item" data-category="wallets">
+              <div class="mini-product mini-two"></div>
+              <div class="mini-info">
+                <span>Milano Wallet</span>
+                <strong>$150</strong>
+              </div>
+            </article>
+
+            <article class="grid-item" data-category="travel">
+              <div class="mini-product mini-three"></div>
+              <div class="mini-info">
+                <span>Voyage Case</span>
+                <strong>$260</strong>
+              </div>
+            </article>
+
+            <article class="grid-item" data-category="bags">
+              <div class="mini-product mini-four"></div>
+              <div class="mini-info">
+                <span>Noir Crossbody</span>
+                <strong>$210</strong>
+              </div>
+            </article>
+
+            <article class="grid-item" data-category="wallets">
+              <div class="mini-product mini-five"></div>
+              <div class="mini-info">
+                <span>St. Clair Card Holder</span>
+                <strong>$120</strong>
+              </div>
+            </article>
+
+            <article class="grid-item" data-category="travel">
+              <div class="mini-product mini-six"></div>
+              <div class="mini-info">
+                <span>Summit Duffle</span>
+                <strong>$340</strong>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="craft" class="craft">
+        <div class="container craft-grid">
+          <div class="craft-copy">
+            <p class="eyebrow">Our process</p>
+            <h2>Crafted with patience, shaped by detail.</h2>
+            <p>
+              Every piece begins with carefully selected hides, hand-burnished for a
+              rich finish and built to develop character over time.
+            </p>
+
+            <div class="craft-points">
+              <div>
+                <strong>01</strong>
+                <p>Small-batch leather selection</p>
+              </div>
+              <div>
+                <strong>02</strong>
+                <p>Skilled hand-finishing</p>
+              </div>
+              <div>
+                <strong>03</strong>
+                <p>Built to age beautifully</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="craft-visual">
+            <div class="craft-panel">
+              <div class="panel-glow"></div>
+              <div class="craft-bag"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="container stats-grid">
+          <div class="stat-box">
+            <span>8</span>
+            <p>years of leather craftsmanship</p>
+          </div>
+          <div class="stat-box">
+            <span>24</span>
+            <p>artisan-led design sketches</p>
+          </div>
+          <div class="stat-box">
+            <span>98%</span>
+            <p>customer satisfaction rate</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story">
+        <div class="container story-grid">
+          <div class="story-image"></div>
+
+          <div class="story-copy">
+            <p class="eyebrow">The Bronze way</p>
+            <h2>Minimal form. Maximum presence.</h2>
+            <p>
+              Bronze Store brings together sculptural design and enduring materials,
+              creating leather goods that feel as intentional as they look.
+            </p>
+            <p>
+              From everyday carry to travel staples, each object is designed to carry
+              both function and feeling—without unnecessary excess.
+            </p>
+            <a href="#" class="primary-btn">Read Our Story</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <div class="section-head center">
+            <div>
+              <p class="eyebrow">Testimonials</p>
+              <h2>Loved by people who appreciate good leather.</h2>
+            </div>
+          </div>
+
+          <div class="testimonial-grid">
+            <blockquote>
+              “The quality is exceptional. It feels elevated, refined, and genuinely
+              made to last.”
+              <cite>— Ella J.</cite>
+            </blockquote>
+
+            <blockquote>
+              “Every detail feels intentional — from the finish to the strap. Totally
+              worth it.”
+              <cite>— Marcus T.</cite>
+            </blockquote>
+
+            <blockquote>
+              “It looks beautiful from day one and only feels more personal over time.”
+              <cite>— Nina C.</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="journal" class="journal">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Journal</p>
+              <h2>Notes from the atelier.</h2>
+            </div>
+            <a href="#" class="text-link">Read more</a>
+          </div>
+
+          <div class="journal-grid">
+            <article class="journal-card">
+              <div class="journal-image journal-one"></div>
+              <div class="journal-body">
+                <span>Styling</span>
+                <h3>How to build a leather capsule wardrobe</h3>
+                <p>Thoughtful essentials, tonal layering, and confident minimalism.</p>
+              </div>
+            </article>
+
+            <article class="journal-card">
+              <div class="journal-image journal-two"></div>
+              <div class="journal-body">
+                <span>Craft</span>
+                <h3>Why full-grain leather only gets better with age</h3>
+                <p>The beauty of patina, texture, and everyday use.</p>
+              </div>
+            </article>
+
+            <article class="journal-card">
+              <div class="journal-image journal-three"></div>
+              <div class="journal-body">
+                <span>Travel</span>
+                <h3>Weekend essentials worth packing in leather</h3>
+                <p>A refined check-list for elegant movement and effortless carry.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter" id="contact">
+        <div class="container newsletter-box">
+          <div>
+            <p class="eyebrow">Stay in touch</p>
+            <h2>Receive private updates and early access.</h2>
+          </div>
+
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" />
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <span class="brand-mark">B</span>
+            <span class="brand-name">Bronze Store</span>
+          </div>
+          <p>Finite luxury for daily rituals.</p>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h4>Shop</h4>
+            <a href="#">Bags</a>
+            <a href="#">Wallets</a>
+            <a href="#">Travel</a>
+          </div>
+
+          <div>
+            <h4>About</h4>
+            <a href="#">Our story</a>
+            <a href="#">Craft</a>
+            <a href="#">Journal</a>
+          </div>
+
+          <div>
+            <h4>Support</h4>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 Bronze Store. All rights reserved.</p>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
